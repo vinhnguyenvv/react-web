@@ -32,7 +32,7 @@ class App extends Component {
                         <Route path="/" component={Home} exact />
                         <Route path="/home" component={Home} />
                         <Route path="/about" component={About} />
-                        <Route component={Error} />
+                        <Route component={Error ssds} />
                     </Switch>
                 </div>
             </Router>
