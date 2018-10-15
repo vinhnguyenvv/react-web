@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-
 import './Home.css';
 import Form from './Form';
-const API_KEY = "132f816a257d768ba7db6b116c6feaa3";
-
-
-
+const API_KEY = '132f816a257d768ba7db6b116c6feaa3';
 class Home extends Component {
     state = {
         recipes: []

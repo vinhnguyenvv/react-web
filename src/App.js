@@ -1,5 +1,6 @@
+
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -8,7 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Home from './components/home/Home';
 import About from './components/about/About';
-import Error from './components/Error'
+import Error from './components/Error';
 import Navigation from './components/navigation/Navigation';
 import Footer from './components/footer/Footer';
 
